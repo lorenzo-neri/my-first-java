@@ -20,5 +20,22 @@ public class Main_03 {
                 break;
         }
 
+        /*
+         * #################
+         * Ciclo WHILE
+         */
+        int i = 0;
+        /*
+         * while (i <= 5) {
+         * System.out.println(i);
+         * i++;
+         * }
+         */
+        do { // qua il codice viene eseguito prima di controllare la condizione, almeno una
+             // volta verrà eseguito
+            System.out.println(i);
+            i++;
+        } while (i <= 5);
+        System.out.println("Ciclo finito!");
     }
 }
