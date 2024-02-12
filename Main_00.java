@@ -1,6 +1,6 @@
 //OOP
 
-public class Main {
+public class Main_00 {
 
     public static void main(String[] args) {
 
@@ -47,16 +47,16 @@ public class Main {
          * 
          */
 
-        boolean ilBoolean = true;
-        byte ilByte = 127;
-        short loShort = -32768;
-        int ilInt = 2_000_000_000;
-        long ilLong = 89_436_234_874_458L;
+        // boolean ilBoolean = true;
+        // byte ilByte = 127;
+        // short loShort = -32768;
+        // int ilInt = 2_000_000_000;
+        // long ilLong = 89_436_234_874_458L;
 
-        float ilFloat = 5.1234567f; // f per il float è fondamentale
-        double ilDouble = 5.233453543;
+        // float ilFloat = 5.1234567f; // f per il float è fondamentale
+        // double ilDouble = 5.233453543;
 
-        char ilChar = 'c'; // il singolo apice per il char
+        // char ilChar = 'c'; // il singolo apice per il char
         String laStringa = "ciao"; // le virgolette per String
 
         // primitive e reference
