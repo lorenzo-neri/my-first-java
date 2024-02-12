@@ -22,5 +22,16 @@ public class Main_02 {
         z++; // classico incremento
         System.out.println(z);
 
+        /*
+         * ALCUNI METODI - Math Class: abs, min, max, pow, sqrt
+         * attributi: PI
+         */
+        System.out.println("################");
+        System.out.println(Math.abs(-55)); // abs toglie segno
+        System.out.println(Math.min(55, 21)); // min/max
+        System.out.println(Math.sqrt(z)); // sqrt radice quadrata (square root)
+        System.out.println(Math.pow(y, z)); // pow eleva potenza
+        System.out.println("P Greco = " + Math.PI);
+
     }
 }
