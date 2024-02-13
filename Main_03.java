@@ -37,5 +37,39 @@ public class Main_03 {
             i++;
         } while (i <= 5);
         System.out.println("Ciclo finito!");
+
+        System.out.println("################");
+
+        /*
+         * CICLO FOR
+         * versione enhanced/foreach
+         * break e continue
+         */
+        for (int q = 0; q < 5; q++) {
+            System.out.println("riga " + q);
+
+            for (int j = 0; j < 5; j++) {
+                System.out.println("colonna " + j);
+            }
+        }
+
+        // SIMIL FOREACH
+        int[] numeri = { 10, 20, 30, 40, 50 };
+        for (int numero : numeri) {
+            System.out.println(numero);
+        }
+
+        for (int k = 0; k < 5; k++) {
+            if (k == 3) {
+                break;
+            }
+            System.out.println("break " + k);
+        }
+        for (int w = 0; w < 5; w++) {
+            if (w == 3) {
+                continue;
+            }
+            System.out.println("continue " + w);
+        }
     }
 }
