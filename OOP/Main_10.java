@@ -14,15 +14,17 @@ package OOP;
 public class Main_10 {
     public static void main(String[] args) {
 
-        Persona persona1 = new Persona(); // creo un oggetto o un'istanza
-
-        System.out.println(persona1.colorePreferito);
-        System.out.println(persona1.nome);
-
-        persona1.saluta();
-
-        Persona persona2 = new Persona(); // altra istanza
-
-        persona2.cammina();
+        /*
+         * Persona persona1 = new Persona(); // creo un oggetto o un'istanza
+         * 
+         * System.out.println(persona1.colorePreferito);
+         * System.out.println(persona1.nome);
+         * 
+         * persona1.saluta();
+         * 
+         * Persona persona2 = new Persona(); // altra istanza
+         * 
+         * persona2.cammina();
+         */
     }
 }
