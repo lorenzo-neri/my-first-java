@@ -29,8 +29,9 @@ public class Persona {
         this.colorePreferito = colorePreferito;
     }
 
-    public void saluta() {
-        System.out.println("Ciao sono " + nome);
+    // passare oggetti come parametri
+    public void saluta(Persona personaDaSalutare) {
+        System.out.println("Ciao " + personaDaSalutare.nome + " io sono " + this.nome);
     }
 
     public String toString() {

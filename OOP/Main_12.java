@@ -22,5 +22,8 @@ public class Main_12 {
 
         System.out.println(persone[0]); // possiamo vederlo grazie al metodo toString che abbiamo "modificato"
 
+        // passare oggetti come parametri
+        System.out.println("\n ########### \n");
+        persona1.saluta(persona2);
     }
 }
