@@ -34,9 +34,18 @@ public class Persona {
         System.out.println(numeroPersone);
     }
 
+    public Persona(String nome, String cognome) {
+        this.nome = nome;
+        this.cognome = cognome;
+    }
+
     // passare oggetti come parametri
     public void saluta(Persona personaDaSalutare) {
         System.out.println("Ciao " + personaDaSalutare.nome + " io sono " + this.nome);
+    }
+
+    public void saluta() {
+        System.out.println("Ciao!");
     }
 
     public String toString() {
