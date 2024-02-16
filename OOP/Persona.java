@@ -32,4 +32,9 @@ public class Persona {
     void saluta() {
         System.out.println("Ciao sono " + nome);
     }
+
+    public String toString() {
+        String stringa = this.nome + "\n" + this.cognome + "\n" + this.eta + "\n" + this.colorePreferito;
+        return stringa;
+    }
 }

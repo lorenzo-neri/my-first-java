@@ -22,5 +22,10 @@ public class Main_11 {
         // Pizza pizza2 = new Pizza("5 cereali");
         // Pizza pizza3 = new Pizza("5 cereali", "pummarola");
 
+        /*
+         * metodo toString
+         */
+        System.err.println("\n ########### \n");
+        System.err.println(persona1); // vedere oggetto Persona
     }
 }
