@@ -16,7 +16,7 @@ public class Main_11 {
         System.out.println(persona1.cognome);
         System.out.println(persona2.cognome);
 
-        persona1.saluta();
+        // persona1.saluta();
 
         /*
          * OVERLOADED CONSTRUCTORS
