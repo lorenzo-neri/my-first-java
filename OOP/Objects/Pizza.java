@@ -1,23 +1,23 @@
-package OOP;
+package OOP.Objects;
 
 public class Pizza {
-    String impasto;
-    String salsa;
-    String mozzarella;
-    String extra;
+    public String impasto;
+    public String salsa;
+    public String mozzarella;
+    public String extra;
 
-    Pizza(String impasto) {
+    public Pizza(String impasto) {
         this.impasto = impasto;
         System.out.println("Ingredienti: " + impasto);
     }
 
-    Pizza(String impasto, String salsa) {
+    public Pizza(String impasto, String salsa) {
         this.impasto = impasto;
         this.salsa = salsa;
         System.out.println("Ingredienti: " + impasto + ", " + salsa);
     }
 
-    Pizza(String impasto, String salsa, String mozzarella, String extra) {
+    public Pizza(String impasto, String salsa, String mozzarella, String extra) {
         this.impasto = impasto;
         this.salsa = salsa;
         this.mozzarella = mozzarella;

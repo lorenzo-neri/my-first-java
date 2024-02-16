@@ -1,4 +1,4 @@
-package OOP;
+package OOP.Objects;
 
 public class Persona {
 
@@ -17,19 +17,19 @@ public class Persona {
      * }
      */
 
-    String nome;
-    String cognome;
-    int eta;
-    String colorePreferito;
+    public String nome;
+    public String cognome;
+    public int eta;
+    public String colorePreferito;
 
-    Persona(String nome, String cognome, int eta, String colorePreferito) {
+    public Persona(String nome, String cognome, int eta, String colorePreferito) {
         this.nome = nome;
         this.cognome = cognome;
         this.eta = eta;
         this.colorePreferito = colorePreferito;
     }
 
-    void saluta() {
+    public void saluta() {
         System.out.println("Ciao sono " + nome);
     }
 
