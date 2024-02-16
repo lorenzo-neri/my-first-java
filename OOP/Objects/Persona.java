@@ -22,11 +22,16 @@ public class Persona {
     public int eta;
     public String colorePreferito;
 
+    public static int numeroPersone;
+
     public Persona(String nome, String cognome, int eta, String colorePreferito) {
         this.nome = nome;
         this.cognome = cognome;
         this.eta = eta;
         this.colorePreferito = colorePreferito;
+
+        numeroPersone++;
+        System.out.println(numeroPersone);
     }
 
     // passare oggetti come parametri
@@ -37,5 +42,9 @@ public class Persona {
     public String toString() {
         String stringa = this.nome + "\n" + this.cognome + "\n" + this.eta + "\n" + this.colorePreferito;
         return stringa;
+    }
+
+    public static void mostraNumeroPersone() {
+        System.out.println("Il numero di persone create è: " + numeroPersone);
     }
 }
