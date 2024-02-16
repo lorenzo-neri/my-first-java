@@ -15,5 +15,12 @@ public class Main_11 {
 
         persona1.saluta();
 
+        /*
+         * OVERLOADED CONSTRUCTORS
+         */
+        // Pizza pizza1 = new Pizza("integrale", "pomodoro", "fior di latte", "olive");
+        // Pizza pizza2 = new Pizza("5 cereali");
+        // Pizza pizza3 = new Pizza("5 cereali", "pummarola");
+
     }
 }
