@@ -28,4 +28,8 @@ public class Persona {
         this.eta = eta;
         this.colorePreferito = colorePreferito;
     }
+
+    void saluta() {
+        System.out.println("Ciao sono " + nome);
+    }
 }
