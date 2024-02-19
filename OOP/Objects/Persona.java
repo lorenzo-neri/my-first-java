@@ -17,8 +17,8 @@ public class Persona {
      * }
      */
 
-    public String nome;
-    public String cognome;
+    private String nome;
+    private String cognome;
     public int eta;
     public String colorePreferito;
 
@@ -56,4 +56,26 @@ public class Persona {
     public static void mostraNumeroPersone() {
         System.out.println("Il numero di persone create è: " + numeroPersone);
     }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getCognome() {
+        return cognome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setCognome(String cognome) {
+        this.cognome = cognome;
+    }
+
+    public void copy(Persona persona) {
+        setNome(persona.getNome());
+        setCognome(persona.getCognome());
+    }
+
 }

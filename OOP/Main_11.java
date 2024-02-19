@@ -13,8 +13,8 @@ public class Main_11 {
         Persona persona1 = new Persona("Lorenzo", "Neri", 23, "viola");
         Persona persona2 = new Persona("Mario", "Rossi", 34, "giallo");
 
-        System.out.println(persona1.cognome);
-        System.out.println(persona2.cognome);
+        System.out.println(persona1.getCognome());
+        System.out.println(persona2.getCognome());
 
         // persona1.saluta();
 
